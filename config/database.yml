@@ -1,0 +1,20 @@
+development:
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
+  url: postgres://admin:YVBMXOFTPHGAPOPI@bluemix-sandbox-dal-9-portal.8.dblayer.com:25059/compose
+
+production:
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
+  url: postgres://admin:YVBMXOFTPHGAPOPI@bluemix-sandbox-dal-9-portal.8.dblayer.com:25059/compose
+
+# Warning: The database defined as "test" will be erased and
+# re-generated from your development database when you run "rake".
+# Do not set this db to the same as development or production.
+test:
+  adapter: sqlite3
+  pool: 5
+  timeout: 5000
+  database: db/test.sqlite3

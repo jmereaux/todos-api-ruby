@@ -1,0 +1,4 @@
+applications:
+- name: todos-api-ruby-jm
+  domain: eu-gb.mybluemix.net
+  memory: 256M
